@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>Job Application</h1>
+    <br>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name">
+    <br>
+    <br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email">
+    <br>
+    <br>
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="name">
+    <br>
+    <br>
+    <label for="resume">Resume:</label><br>
+    <input type="file" id="resume" name="resume">
+    <br>
+    <br>
+    <label for="experience">Experience (years):</label><br>
+    <input type="number" id="experience" name="experience" min="0" max="20"></type>
+    <br><br>
+    <fieldset>
+        <legend>Skills:</legend>
+        <input type="checkbox" id="html" name="html"><br>
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" id="css" name="css"><br>
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" id="javascript" name="javascript"><br>
+        <label for="javascript">JavaScript</label>
+    </fieldset>
+    <br>
+    <label for="education">Higher Education:</label><br>
+    <select id="education" name="education">
+        <option>High School</option>
+        <option>Primary School</option>
+        <option>Graduate</option>
+        <option>Post Graduate</option>
+    </select>
+    <br><br>
+    <fieldset>
+        <legend>Availability:</legend>
+        <input type="radio" name="time" id="fulltime">
+        <br>
+        <label for="fulltime">Full-Time</label>
+        <br>
+        <input type="radio" name="time" id="parttime">
+        <br>
+        <label for="parttime">Part-Time</label>
+    </fieldset>
+    <br>
+    <br>
+    <label for="additional">Additional Comments:</label><br>
+    <textarea id="additional" name="additional" cols="50" rows="5"> </textarea>
+    <br>
+    <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>
